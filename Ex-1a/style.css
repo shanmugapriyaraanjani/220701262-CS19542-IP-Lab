@@ -1,0 +1,49 @@
+.title{
+  text-align: center;
+}
+   img{
+    height: 200px;
+    width: 200px;
+    float: right;
+   }
+    .column {
+      float: left;
+      width: 50%;
+      padding: 15px;
+    }
+    
+    @media screen and (max-width:600px) {
+      .column {
+        width: 100%;}}
+    
+    .row::after {
+      content: "";
+      display: table;
+      clear: both;}
+      .container {
+        position: relative;
+      }
+      
+      .topright {
+        position: absolute;
+        top: 8px;
+        right: 16px;
+        font-size: 18px;
+      }
+      .sign{
+        height: 100px;
+        width: 200px;
+      }
+      table,th,td{
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
+      #c2{
+        align-content: center;
+        width: 50%; 
+      justify-content: center; 
+      }
+      #c1, #c3 {
+        width: 25%; 
+    }
+   
