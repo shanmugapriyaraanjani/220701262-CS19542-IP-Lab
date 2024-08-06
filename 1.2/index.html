@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h1>Timetable</h1>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <table class="timetable">
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>1<br>8:00 - 9:00</th>
+                    <th>2<br>9:00 - 9:50</th>
+                    <th class="break" colspan="1">Break<br>9:50 - 10:10</th>
+                    <th>3<br>10:10 - 11:00</th>
+                    <th>4<br>11:00 - 11:50</th>
+                    <th>5/L<br>11:50 - 12:40</th>
+                    <th>L/5<br>12:40 - 1:20</th>
+                    <th>6<br>1:20 - 2:10</th>
+                    <th>7<br>2:10 - 3:00</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>CS19501 - TOC<br><span class="room">A 310</span></td>
+                    <td>CS19541 - CN<br><span class="room">A 310</span></td>
+                    <td rowspan="5" class="break">BREAK</td>
+                    <td colspan="2">CS19542 - IP<br><span class="room">A 105</span></td>
+                    <td rowspan="1" class="lunch">LUNCH</td>
+                    <td>NPTEL<br><span class="room">A 310</span></td>
+                    <td>COUN<br><span class="room">A 310</span></td>
+                    <td>AI19341 - POAI<br><span class="room">A 310</span></td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>CS19541 - CN<br><span class="room">A 311</span></td>
+                    <td>CS19501 - TOC<br><span class="room">A 311</span></td>
+                    <td colspan="2">CS19542 - IP<br><span class="room">A 105</span></td>
+                    <td rowspan="1" class="lunch">LUNCH</td>
+                    <td>AI19341 - POAI<br><span class="room">A 310</span></td>
+                    <td colspan="2">CS19542 / CS19541 - IP / CN LAB<br><span class="room">TLFL5 / TLFL3</span></td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td colspan="2"> CS19541/AI19341 - CN / POAI LAB<br><span class="room">TFL3 / TLG3</span></td>
+                    <td>CS19541 - CN<br><span class="room">A 311</span></td>
+                    <td rowspan="1" class="lunch">LUNCH</td>
+                    <td colspan="2">CS19541 / CS19542 - CN / IP LAB<br><span class="room">TLFL3 / TLFL5</span></td>
+                    <td colspan="2">OAI1903 - RPA<br><span class="room">TLGL2</span></td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td colspan="2" >VAP</td>
+                    <td colspan="2">OAI1903 - RPA<br><span class="room">TLGL2</span></td>
+                    <td rowspan="1" class="lunch">LUNCH</td>
+                    <td>LIB</td>
+                    <td>CS19501 - TOC<br><span class="room">A 310</span></td>
+                    <td>CS19541 - CN<br><span class="room">A 310</span></td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td colspan="2">CS19542 / CS19541 - IP / CN LAB<br><span class="room">TLFL5 / TLFL3</span></td>
+                    <td>AI19341 - POAI<br><span class="room">A 310</span></td>
+                    <td>LIB</td>
+                    <td rowspan="1" class="lunch">LUNCH</td>
+                    <td>CS19501 - TOC<br><span class="room">A 311</span></td>
+                    <td colspan="2">AI19341 / CS19542 - POAI / IP LAB<br><span class="room">TLGL3 / JL1</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
